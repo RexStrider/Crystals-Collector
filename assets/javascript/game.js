@@ -5,7 +5,10 @@ console.log("------------------------------------");
 // initialize score to 0
 let score = 0;
 
+// number of wins
 let wins = 0;
+
+// number of losses
 let losses = 0;
 
 // create a random integer with a range of 20 to 50 inclusive
