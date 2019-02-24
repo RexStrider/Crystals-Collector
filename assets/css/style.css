@@ -1,0 +1,116 @@
+/* tags */
+
+body {
+    background-color: lavender;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* tags end */
+
+/* classes */
+
+.header {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.h1 {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+    color: cyan;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    
+}
+
+
+
+.main {
+    margin-left: 0.5%;
+}
+
+.how-to-play {
+    background-color: rgb(89, 2, 126);
+    border: 1px solid rgb(89, 2, 126);;
+    border-radius: 2px;
+    color: cyan;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.game-status, .game-score-header, #game-score {
+    font-size: 24px;
+    line-height: 32px;
+    /* margin-bottom: 0.5%; */
+}
+
+.footer {
+
+}
+
+/* classes end */
+
+/* ids */
+
+#target-number {
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 2px;
+    color: cyan;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#win-loss-stats {
+    background-color: darkred;
+    border: 1px solid darkred;
+    border-radius: 2px;
+    color: cyan;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#wins, #losses, #random-number {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(255, 159, 207);
+}
+
+/* ids end */
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
