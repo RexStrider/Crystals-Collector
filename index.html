@@ -51,18 +51,22 @@
         <section class="game-status">
 
             <!-- Random number target -->
-            <section class="random-number">
-
+            <section>
+                Target number: <span id="random-number"></span>
             </section>
 
             <!-- Status of the players wins and losses -->
             <section class="win-loss-stats">
 
                 <!-- Number of wins for the player -->
-                <section class="wins"></section>
+                <section>
+                    Wins: <span id="wins">0</span>
+                </section>
 
                 <!-- Number of losses for the player -->
-                <section class="losses"></section>
+                <section>
+                    Losses: <span id="losses">0</span>
+                </section>
 
             </section>
 
@@ -70,10 +74,10 @@
 
         <!-- Crystals -->
         <section class="crystal-options">
-            <img class="crystal-1" src="assets/images/crystal-1.jpg">
-            <img class="crystal-2" src="assets/images/crystal-2.jpg">
-            <img class="crystal-3" src="assets/images/crystal-3.jpg">
-            <img class="crystal-4" src="assets/images/crystal-4.jpg">
+            <img id="crystal-1" src="assets/images/crystal-1.jpg">
+            <img id="crystal-2" src="assets/images/crystal-2.jpg">
+            <img id="crystal-3" src="assets/images/crystal-3.jpg">
+            <img id="crystal-4" src="assets/images/crystal-4.jpg">
         </section>
 
         <!-- Header for the Game Score -->
@@ -84,7 +88,7 @@
         </section>
 
         <!-- Game Score -->
-        <section class="game-score"></section>
+        <section id="game-score"></section>
 
     </main>
 
