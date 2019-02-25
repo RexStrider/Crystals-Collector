@@ -26,33 +26,51 @@ for(i=0; i < 4; i++) {
 let crystalImages = document.getElementsByTagName("img");
 
 // add to the score when clicking on a crystal
+function addCrystalScore() {
+    let index = parseInt(this.getAttribute("index"));
+    let crystal = "";
+
+    if (index === 0) crystal = "yellow";
+    if (index === 1) crystal = "teal";
+    if (index === 2) crystal = "red";
+    if (index === 3) crystal = "purple";
+
+    score += crystalScores[index];
+    console.log(crystal + " crystal: " + crystalScores[index]);
+    render();
+}
+
+for (i=0; i < crystalImages.length; i++) {
+    crystalImages[i].addEventListener("click", addCrystalScore, false);
+}
+
 // adds the value of crystal 1 to the score
-crystalImages[0].addEventListener("click", event => {
-    score += crystalScores[0];
-    console.log("yellow crystal: " + crystalScores[0]);
-    render();
-});
+// crystalImages[0].addEventListener("click", event => {
+//     score += crystalScores[0];
+//     console.log("yellow crystal: " + crystalScores[0]);
+//     render();
+// });
 
-// adds the value of crystal 2 to the score
-crystalImages[1].addEventListener("click", event => {
-    score += crystalScores[1];
-    console.log("teal crystal: " + crystalScores[1]);
-    render();
-});
+// // adds the value of crystal 2 to the score
+// crystalImages[1].addEventListener("click", event => {
+//     score += crystalScores[1];
+//     console.log("teal crystal: " + crystalScores[1]);
+//     render();
+// });
 
-// adds the value of crystal 3 to the score
-crystalImages[2].addEventListener("click", event => {
-    score += crystalScores[2];
-    console.log("red crystal: " + crystalScores[2]);
-    render();
-});
+// // adds the value of crystal 3 to the score
+// crystalImages[2].addEventListener("click", event => {
+//     score += crystalScores[2];
+//     console.log("red crystal: " + crystalScores[2]);
+//     render();
+// });
 
-// adds the value of crystal 4 to the score
-crystalImages[3].addEventListener("click", event => {
-    score += crystalScores[3];
-    console.log("purple crystal: " + crystalScores[3]);
-    render();
-});
+// // adds the value of crystal 4 to the score
+// crystalImages[3].addEventListener("click", event => {
+//     score += crystalScores[3];
+//     console.log("purple crystal: " + crystalScores[3]);
+//     render();
+// });
 
 // renders the game
 function render() {
