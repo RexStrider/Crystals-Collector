@@ -13,6 +13,8 @@ h1 {
 p {
     font-size: 18px;
     line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* tags end */
@@ -22,11 +24,13 @@ p {
 .header {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    margin-left: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 0.5%;
 }
 
 .h1 {
+    width: 230px;
     background-color: darkblue;
     border: 1px solid darkblue;
     border-radius: 2px;
@@ -34,16 +38,15 @@ p {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0.5%;
-    
 }
 
-
-
 .main {
-    margin-left: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .how-to-play {
+    max-width: 500px;
     background-color: rgb(89, 2, 126);
     border: 1px solid rgb(89, 2, 126);;
     border-radius: 2px;
@@ -54,21 +57,29 @@ p {
     padding-bottom: 0.5%;
 }
 
-.game-status, .game-score-header, #game-score {
-    font-size: 24px;
-    line-height: 32px;
-    /* margin-bottom: 0.5%; */
-}
-
-.footer {
-
-}
-
 /* classes end */
 
 /* ids */
 
+#game-status, #game-score-header, #game-score {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#game-score-header {
+    max-width: 220px;
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 2px;
+    color: cyan;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+}
+
 #target-number {
+    max-width: 200px;
     background-color: darkgreen;
     border: 1px solid darkgreen;
     border-radius: 2px;
@@ -80,6 +91,7 @@ p {
 }
 
 #win-loss-stats {
+    max-width: 110px;
     background-color: darkred;
     border: 1px solid darkred;
     border-radius: 2px;
@@ -90,7 +102,7 @@ p {
     margin-bottom: 0.5%;
 }
 
-#wins, #losses, #random-number {
+#wins, #losses, #random-number, #game-score {
     font-family: 'Orbitron', sans-serif;
     color: rgb(255, 159, 207);
 }
