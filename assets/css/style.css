@@ -18,6 +18,16 @@ p {
     margin-bottom: 10px;
 }
 
+img {
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+img:hover {
+    border-color: mediumblue;
+}
+
 /* tags end */
 
 /* classes */
@@ -68,7 +78,7 @@ p {
 }
 
 #game-score-header {
-    max-width: 220px;
+    max-width: 240px;
     background-color: darkslateblue;
     border: 1px solid darkslateblue;
     border-radius: 2px;
@@ -108,11 +118,12 @@ p {
     color: rgb(255, 159, 207);
 }
 
-/* ids end */
-
-@media screen and (max-width: 445px) {
-    
+#crystal-options section {
+    float: left;
+    margin-right: 5px;
 }
+
+/* ids end */
 
 /*
   ========================================
