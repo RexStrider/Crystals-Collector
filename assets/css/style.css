@@ -33,11 +33,10 @@ img:hover {
 /* classes */
 
 .header {
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    margin-top: 1%;
     margin-left: 1%;
     margin-right: 1%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
 }
 
 .h1 {
@@ -64,7 +63,7 @@ img:hover {
     color: cyan;
     padding-left: 1%;
     padding-right: 1%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     padding-bottom: 0.5%;
 }
 
@@ -86,7 +85,7 @@ img:hover {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0.5%;
-    margin-bottom: 0.5%;
+    margin-bottom: 3%;
 }
 
 #target-number {
@@ -98,7 +97,7 @@ img:hover {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0.5%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
 }
 
 #win-loss-stats {
@@ -110,7 +109,7 @@ img:hover {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 0.5%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
 }
 
 #wins, #losses, #random-number, #game-score {
@@ -121,6 +120,7 @@ img:hover {
 #crystal-options section {
     float: left;
     margin-right: 5px;
+    margin-bottom: 0.5%;
 }
 
 /* ids end */
