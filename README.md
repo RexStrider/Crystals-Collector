@@ -30,5 +30,5 @@ If you don't take enough, you won't have enough money to pay the debts you incur
 
 * Wins and losses are tallied up as you play.
 
-Click the the link to play!
+Click the the link to play
 [Crystals Collector](https://rexstrider.github.io/Crystals-Collector/)
