@@ -8,7 +8,7 @@ Your goal is to steal the crystals, but you must be careful.
 
 If you take too many, the FBI will hunt you down.
 
-If you don't take enough, you won't have enough money to pay the debts you incurred while getting your degree in Art History.
+If you don't take enough, you won't have enough money to pay the debts you incurred from your student loans.
 
 * You collect crystals by clicking on them.
 
