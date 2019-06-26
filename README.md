@@ -1,4 +1,4 @@
-# Crystals Collector
+# [Crystals Collector](https://rexstrider.github.io/Crystals-Collector/)
 
 Welcome to the game of collecting crystals!
 
