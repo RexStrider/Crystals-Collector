@@ -4,6 +4,10 @@ body {
     background-image: url("../images/congruent_pentagon.png");
     background-color: lavender;
     font-family: 'Indie Flower', cursive;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -112,6 +116,10 @@ img:hover {
 #game-status, #game-score-header, #game-score {
     font-size: 24px;
     line-height: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #game-score-header {
@@ -156,27 +164,12 @@ img:hover {
 }
 
 #crystal-options section {
-    float: left;
     margin-right: 5px;
     margin-bottom: 0.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ids end */
-
-/*
-  ========================================
-  Clearfix
-  ========================================
-*/
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-.clearfix {
-  clear: both;
-  *zoom: 1;
-}
